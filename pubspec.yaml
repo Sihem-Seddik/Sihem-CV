@@ -44,6 +44,7 @@ dependencies:
   provider: ^6.1.2
   easy_localization: ^3.0.7
   flip_card: ^0.7.0
+  flutter_launcher_icons: ^0.13.1
 
 
 dev_dependencies:
@@ -61,7 +62,12 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/launcher_icon.jpg" 
 flutter:
+ 
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
@@ -73,7 +79,7 @@ flutter:
     - assets/images/
     - assets/translations/
   #   - images/a_dot_ham.jpeg
-
+      
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
